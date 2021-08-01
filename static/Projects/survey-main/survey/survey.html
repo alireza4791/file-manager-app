@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>survey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="survey-container">
+  <div class="heading">
+    <h1>Application For Permission To Date My Daughter</h1>
+    <p><b>Note:</b> Form is to be completed at least 21 days prior to date</p>
+  </div>
+  <div>
+    <fieldset>
+      <legend><b>Personal Details</b></legend>
+      <form action="server.php" method="GET">
+        <div>
+          <label for="user_name">Name : </label>
+          <input type="text" id="user_name" name="user_name" placeholder="Enter name here" required>
+        </div>
+        <div>
+          <label for="adress">Adress : </label>
+          <input type="text" id="adress" name="adress" placeholder="Enter adress here">
+        </div>
+        <div>
+          <label for="email">Email : </label>
+          <input type="email" id="email" Name="email" placeholder="Enter email here" required>
+        </div>
+        <div>
+          <label for="phone">Phone Number : </label>
+          <input type="tel" id="phone" Name="phone" placeholder="Enter 10 digit number">
+        </div>
+        <div>
+          <label for="IQ">IQ : </label>
+          <input type="number" id="IQ" name="IQ" placeholder="Enter IQ here">
+        </div>
+        <div>
+          Gender
+          <div>
+            <input type="radio" id="male" name="gender"><label for="male">Male</label>
+          </div>
+          <div>
+            <input type="radio" id="female" name="gender"><label for="female">female</label>
+          </div>
+          <div>
+            <input type="radio" id="other" name="gender"><label for="other">Other</label>
+          </div>
+
+        </div>
+        <div>
+          <label for="date">Date of Proposed Outing:</label>
+          <input type="date" id="date" name="date">
+        </div>
+      </form>
+    </fieldset>
+    <fieldset>
+      <h3>Check All That Apply</h3>
+      <div>
+        <input type="checkbox" id="1" name="1"> I have tattoos and/or piercings
+      </div>
+      <div>
+        <input type="checkbox" id="2" name="2">  I am more than 2 years older than my daughter
+      </div>
+      <div>
+        <input type="checkbox" id="3" name="3"> I own a panel van or V8 ute
+      </div>
+      <div>
+        <input type="checkbox" id="4" name="4">I work full-time
+      </div>
+      <div>
+        <input type="checkbox" id="5" name="5">My parents are rich
+      </div>
+      <div>
+        <input type="checkbox" id="6" name="6">Is the date at a well lit public location
+      </div>
+      
+    </fieldset>
+    <fieldset>
+      <p>Political Persuasion: 
+        <select name="political" id="political">
+          <option label="left wing" value="left wing"></option>
+          <option label="right wing" value="right wing"></option>
+          <option label="conservative" value="conservative"></option>
+          <option label="nazi" value="nazi"></option>
+        </select>
+        Education Level Completed:
+      <select name="education" id="education">
+        <option label="university" value="university"></option>
+        <option label="college" value="college"></option>
+        <option label="highschool" value="highschool"></option>
+        <option label="none" value="none"></option>
+      </select> </p>
+    </fieldset>
+    <fieldset>
+      <legend>Essay Section</legend>
+      <p>In 50 words or more explain why you want to date my daughter</p> <br><br>
+      <textarea name="explaination" id="explaination" cols="30" rows="5" placeholder="Enter text here"></textarea> <br><br>
+      <p>Please upload contact details for 2 references</p>
+      <textarea id="references" name="reference" cols="30" rows="5" placeholder="Enter text here"></textarea> <br><br>
+      <p>Upload Police Clearance Certificate, Bank Statement and Medical Certifiates here: <a href="#">Attach Files</a></p>
+      
+    </fieldset>
+   <div class="submit">
+     <input type="submit" value="Send Your Application">
+   </div>
+  </div>
+</div>
+
+  
+</div>
+
+</body>
+</html>

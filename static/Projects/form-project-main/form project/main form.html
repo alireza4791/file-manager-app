@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>form page</title>
+</head>
+<body>
+  <fieldset>
+    <legend>Personal Info</legend>
+    <form action="sever.php" method="GET">
+      <div>
+        <label for="name">Name *</label>
+        <input type="text" id="name" name="username" required placeholder="name"></div>
+        <div>
+          <label for="pass">Password *</label>
+          <input type="password" id="pass" name="password" required placeholder="password">
+        </div> 
+         
+        <div>
+          <label for="age">Age</label>
+          <input type="number" id="age" name = "age" min="10" max="100" step="10" placeholder="age">
+        </div>
+        
+        <div>
+          <label for="birthdate">Date of Birth</label>
+          <input type="date" id="birthdate" name="birthdate" max="" min="">
+        </div>
+        <div>
+          choose your favorite fruits
+          <div>
+          <input type="checkbox" id="check1" name="check">
+          <label for="check1">banana</label>
+        </div>
+        <div>
+          <input type="checkbox" id="check2" name="check">
+          <label for="check2">apple</label>
+        </div>
+      </div>
+      <div>Gender
+        <div>
+          <input type="radio" name="gender" id="male"> <label for="male">Male</label>
+        </div>
+        <div>
+          <input type="radio" name="gender" id="female"> <label for="female">Female</label>
+        </div>
+      </div>
+      <div>
+        <label for="sups">whos your favorite super hero</label> <br> <br>
+        <select name="superhero" id="sups" multiple>
+          <option label="batman" value="batman"></option>
+          <option label="spiderman" value="spiderman"></option>
+          <option label="spawn" value="spawn"></option>
+        </select>
+      </div>
+      <div>
+        <label for="email">Email *</label>
+        <input type="email" id="email" name = "email" required>
+      </div> 
+      <div>
+        <label for="telephone">Enter phone number</label>
+        <input type="tel" id="telephone" name="telephone">
+      </div>   
+        <div>
+          <label for="txt">Tell us about your self</label> <br>
+          <textarea name="info" id="txt" cols="50" rows="10"></textarea>
+        </div>
+        <div>
+          what Browser Do you perfer <br>
+          <input type="text" id="Browsers_list" list="Browsers">
+          <datalist id="Browsers">
+            <option value="Chrome"></option>
+            <option value="Brave"></option>
+            <option value="Opera"></option>
+            <option value="Firefox"></option>    
+          </datalist>
+        </div>
+        <div>
+          <input type="submit" name = "submit" id="submit">
+          <input type="reset" name = "reset" id="reset">
+        </div>
+    </form>
+  </fieldset>
+</body>
+</html>

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: #2193b0;
+  background: -webkit-gradient(linear, left top, right top, from(#6dd5ed), to(#2193b0));
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+}
+
+.jumbotron {
+  background: url("../images/background-image.jpg") center;
+  background-size: cover;
+  height: 600px;
+}
+
+.jumbotron a img {
+  width: 90px;
+  height: 90px;
+  margin: 50px;
+}
+
+.jumbotron .text-capitalize {
+  padding: 20px;
+}
+
+.jumbotron .text-capitalize h1 {
+  font-size: 4rem;
+}
+
+.jumbotron .text-capitalize p {
+  font-weight: bold;
+}
+
+.jumbotron .buttons {
+  margin-left: 8px;
+}
+
+.jumbotron .buttons button {
+  margin-left: 12px;
+}
+/*# sourceMappingURL=header.css.map */

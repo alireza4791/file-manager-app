@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Rock Paper Scissors</title>
+  <style>
+    body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+    img{
+
+      margin: 50px 150px;
+    }
+    button{
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+<h1>Rock, Paper, Scissors</h1>
+<p>Select either rock, paper, or scissors and see if you can beat the computer!</p>
+
+<p><strong>Remember:</strong> “Rock breaks scissors, scissors cuts paper, paper covers rock.” </p>
+<div class='score'>
+
+</div>
+<div class='message'>
+
+</div>
+<div>
+  <img src="img/player.png">
+  <img src="img/ai.png" width="400px">
+</div>
+<button type='button' data-type = 'rock'>Rock</button>
+<button type='button' data-type = 'paper'>Paper</button>
+<button type='button' data-type = 'Scissors'>Scissors</button>
+<script>
+
+  let i = 0;
+  let j = 0;
+  let f_pick = '';
+  let pick = 0
+  let result = ''
+  document.querySelectorAll('button').forEach(function (button) {
+      button.onclick = function () {
+          pick = Math.floor(Math.random() * 4);
+
+          if(pick == 1){
+              f_pick = 'rock'
+          }
+          if(pick == 2){
+              f_pick = 'paper'
+          }
+          if(pick == 3){
+              f_pick = 'scissors'
+          }
+          if(button.dataset.type == 'rock'){
+              if(f_pick == 'rock'){
+                  result = 'Draw'
+
+              }
+              if(f_pick == 'paper'){
+                  result = 'computer wins'
+                  j++
+              }
+              if(f_pick == 'scissors'){
+                  result = 'you win'
+                  i++
+              }
+          }
+          else if(button.dataset.type == 'paper'){
+              if(f_pick == 'rock'){
+                  result = 'you win'
+                  i++
+              }
+              if(f_pick == 'paper'){
+                  result = 'Draw'
+
+              }
+              if(f_pick == 'scissors'){
+                  result = 'computer wins'
+                  j++
+              }
+          }
+          else if(button.dataset.type == 'Scissors'){
+              if(f_pick == 'rock'){
+                  result = 'computer wins'
+                  j++
+              }
+              if(f_pick == 'paper'){
+                  result = 'you win'
+                  i++
+              }
+              if(f_pick == 'scissors'){
+                  result = 'Draw'
+
+              }
+          }
+          document.querySelector('.score').innerHTML = '<p>Player: [' + i + ' ] Computer: [' + j + ' ]</p>'
+          document.querySelector('.message').innerHTML = '<p>Player: <strong>' + button.dataset.type + '</strong> Computer: <strong>' + f_pick + '</strong></p>'
+          document.querySelector('.message').innerHTML += result
+
+
+      }
+
+  })
+</script>
+</body>
+</html>

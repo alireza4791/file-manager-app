@@ -1,0 +1,257 @@
+* {
+  margin: 0px; }
+
+.container {
+  background: linear-gradient(90deg, rgba(0, 4, 255, 0.53), rgba(255, 0, 0, 0.53)), url("images/download.jpg") no-repeat center fixed;
+  background-image: linear-gradient(90deg, rgba(0, 4, 255, 0.53), rgba(255, 0, 0, 0.53)), url("images/download.jpg") no-repeat center fixed;
+  background-image: -webkit-gradient(90deg, left bottom, right top, color-stop(rgba(0, 4, 255, 0.53)), color-stop(rgba(255, 0, 0, 0.53))), url("images/download.jpg") no-repeat center fixed;
+  background-image: -webkit-linear-gradient(90deg, rgba(0, 4, 255, 0.53), rgba(255, 0, 0, 0.53)), url("images/download.jpg") no-repeat center fixed;
+  background-image: -moz-linear-gradient(90deg, rgba(0, 4, 255, 0.53), rgba(255, 0, 0, 0.53)), url("images/download.jpg") no-repeat center fixed;
+  background-image: -o-linear-gradient(90deg, rgba(0, 4, 255, 0.53), rgba(255, 0, 0, 0.53)), url("images/download.jpg") no-repeat center fixed;
+  background-image: -ms-linear-gradient(90deg, rgba(0, 4, 255, 0.53), rgba(255, 0, 0, 0.53)), url("images/download.jpg") no-repeat center fixed;
+  background-image: -ms-linear-gradient(90deg, rgba(0, 4, 255, 0.53), rgba(255, 0, 0, 0.53)), url("images/download.jpg") no-repeat center fixed;
+  min-height: 629px;
+  min-width: 1360px; }
+  .container .navbar ul {
+    height: 70px;
+    width: 1100px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px; }
+    .container .navbar ul li {
+      float: left;
+      list-style: none;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      background-color: #FFC600;
+      width: 150px;
+      height: 50px;
+      text-align: center;
+      border-radius: 30px;
+      line-height: 45px;
+      text-shadow: 1px 1px 1px;
+      box-shadow: -5px 5px 0px;
+      position: relative;
+      animation: My_animation 0.8s;
+      transition: 0.4s all; }
+      .container .navbar ul li:hover {
+        font-weight: bolder;
+        font-size: larger; }
+
+@keyframes My_animation {
+  from {
+    left: -600px; }
+  to {
+    left: 0px; } }
+.hero {
+  background-image: url(images/2.jpg);
+  background-repeat: norepeat;
+  width: 500px;
+  border-radius: 5px;
+  height: 200px;
+  line-height: 7;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin-left: 40px;
+  margin-top: 50px; }
+  .hero p {
+    text-align: center;
+    background-color: #E8DA18;
+    height: 60px;
+    line-height: 4;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    transition: all 0.2s; }
+    .hero p:hover {
+      color: white; }
+    .hero p:first-of-type {
+      width: 300px;
+      font-size: 30px;
+      line-height: 2;
+      margin-left: 40px;
+      font-weight: 1000;
+      text-shadow: 1px 1px 1px; }
+    .hero p:nth-child(2) {
+      width: 200px;
+      font-size: 20px;
+      line-height: 3;
+      margin-left: 60px;
+      text-shadow: 1px 1px 1px; }
+
+.slider img {
+  width: 500px;
+  height: 300px;
+  border-radius: 30px; }
+.slider #cook2 {
+  display: none; }
+.slider #cook3 {
+  display: none; }
+.slider #cook4 {
+  display: none; }
+.slider #cook5 {
+  display: none; }
+.slider #cook6 {
+  display: none; }
+
+#taco {
+  background-color: #FFC600;
+  box-shadow: -5px 5px 0px;
+  text-shadow: 1px 1px 1px;
+  width: 500px;
+  border-radius: 30px;
+  text-align: center;
+  height: 150px;
+  line-height: 1;
+  padding-top: 10px;
+  font-size: 70px;
+  font-weight: bold;
+  margin-left: 700px;
+  margin-top: -460px;
+  margin-bottom: 100px;
+  transition: all 0.4s; }
+  #taco:hover {
+    opacity: 0.8; }
+
+#kom {
+  background-color: #FFC600;
+  box-shadow: -5px 5px 0px;
+  text-shadow: 1px 1px 1px;
+  width: 500px;
+  border-radius: 30px;
+  text-align: center;
+  height: 150px;
+  line-height: 1;
+  padding-top: 10px;
+  font-size: 70px;
+  font-weight: bold;
+  margin-left: 700px;
+  transition: all 0.4s; }
+  #kom:hover {
+    opacity: 0.8; }
+
+#box_1 {
+  background-color: white;
+  margin-top: 80px;
+  margin-left: 40px;
+  border-radius: 5px;
+  width: 250px;
+  padding: 10px;
+  float: left;
+  height: 150px; }
+  #box_1 img {
+    margin: 0px 97px; }
+  #box_1 p {
+    background-color: #4EAFC9;
+    padding: 5px;
+    border-radius: 5px; }
+  #box_1 h3 {
+    text-shadow: 1px 1px 1px;
+    text-align: center; }
+
+#box_2 {
+  background-color: white;
+  margin-top: 80px;
+  margin-left: 40px;
+  border-radius: 5px;
+  width: 250px;
+  padding: 10px;
+  float: left;
+  height: 150px; }
+  #box_2 img {
+    margin: 0px 97px; }
+  #box_2 p {
+    background-color: #4EAFC9;
+    padding: 5px;
+    border-radius: 5px; }
+  #box_2 h3 {
+    text-shadow: 1px 1px 1px;
+    text-align: center; }
+
+#box_3 {
+  background-color: white;
+  margin-top: 80px;
+  margin-left: 40px;
+  border-radius: 5px;
+  width: 250px;
+  padding: 10px;
+  float: left;
+  height: 150px; }
+  #box_3 img {
+    margin: 0px 97px; }
+  #box_3 p {
+    background-color: #4EAFC9;
+    padding: 5px;
+    border-radius: 5px; }
+  #box_3 h3 {
+    text-shadow: 1px 1px 1px;
+    text-align: center; }
+
+#box_4 {
+  background-color: white;
+  margin-top: 80px;
+  margin-left: 40px;
+  border-radius: 5px;
+  width: 250px;
+  padding: 10px;
+  float: left;
+  height: 150px; }
+  #box_4 img {
+    margin: 0px 97px; }
+  #box_4 p {
+    background-color: #4EAFC9;
+    padding: 5px;
+    border-radius: 5px; }
+  #box_4 h3 {
+    text-shadow: 1px 1px 1px;
+    text-align: center; }
+
+.big_taco {
+  background: white;
+  width: 600px;
+  padding: 60px;
+  border-radius: 10px;
+  margin-top: 500px;
+  margin-left: 300px; }
+  .big_taco img {
+    width: 420px;
+    height: 300px;
+    margin-left: 90px; }
+  .big_taco h1 {
+    text-align: center;
+    margin: 10px; }
+  .big_taco p {
+    text-align: center; }
+
+.finaly {
+  margin-top: 100px; }
+  .finaly #gar {
+    background: linear-gradient(270deg, #ffc600, rgba(255, 200, 0, 0.03));
+    width: 600px;
+    height: 20px;
+    display: block;
+    float: left;
+    position: relative;
+    right: 170px; }
+  .finaly #gar2 {
+    background: linear-gradient(90deg, #ffc600, rgba(255, 200, 0, 0.03));
+    width: 490px;
+    height: 20px;
+    display: block;
+    float: left;
+    position: relative;
+    left: 100px; }
+  .finaly h3 {
+    float: left;
+    position: relative;
+    left: 630px; }
+
+.slider {
+  margin-left: 430px;
+  margin-top: 150px; }
+
+/*# sourceMappingURL=style.css.map */

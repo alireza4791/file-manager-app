@@ -1,0 +1,68 @@
+* {
+	margin: 0px;
+	box-sizing: border-box;
+}
+body {
+	background-image: url(images/background.jpg);
+	font-weight: 500;
+}
+img {
+	width: 100vw;
+}
+.container {
+	width: 750px;
+	color: white;
+	font-family: helvetica;
+}
+.pb-2 mb-2 mt-4 border-bottom {
+	font-weight: bolder;
+	font-size: 100px;
+}
+h2 {
+	color: rgba(245, 245, 245, 0.836);
+	text-align: center;
+	padding-top: 50px;
+}
+h4 {
+	color: rgba(245, 245, 245, 0.836);
+	text-align: center;
+	padding: 10px;
+}
+form > div::after {
+	content: "*";
+}
+form > div {
+	margin-top: 20px;
+}
+#ag::after {
+	content: "(optional)";
+}
+#ag2::after {
+	content: "(optional)";
+}
+select {
+	width: 650px;
+}
+textarea {
+	width: 650px;
+}
+
+.jumbotron {
+	background-color: rgba(29, 29, 31, 0.808);
+}
+#submit_btn {
+	margin-top: 30px;
+	background-color: rgb(40, 243, 40);
+	color: black;
+	border: none;
+	border-radius: 5px;
+	width: 120px;
+	padding: 10px;
+	margin-left: 260px;
+	font-size: large;
+}
+#submit_btn:hover {
+	background-color: rgb(13, 133, 13);
+	color: white;
+	font-size: larger;
+}

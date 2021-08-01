@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(128, 128, 128, 0.226);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  color: rgba(0, 0, 255, 0.486);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+  align-self: center;
+}
+var {
+  margin-top: 90px;
+  color: green;
+  font-size: 25px;
+  align-self: center;
+}
+img {
+  align-self: center;
+  margin-top: 30px;
+}
+h2 {
+  align-self: center;
+  padding: 5px;
+}
+blockquote > q {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+blockquote {
+  margin-left: 37px;
+}
+p {
+  color: purple;
+  font-size: 22px;
+  font-weight: 25;
+  margin: 10px;
+}
+i {
+  color: rgba(0, 81, 255, 0.733);
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+}
+
+.sprite-Albert_Einstein__Nobel_ {
+    width: 280px;
+    height: 396px;
+    background-position: -5px -5px;
+}
+

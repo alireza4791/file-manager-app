@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: #2193b0;
+  background: -webkit-gradient(linear, left top, right top, from(#6dd5ed), to(#2193b0));
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+}
+
+.jumbotron {
+  background: url("../images/background-image.jpg") center;
+  background-size: cover;
+  height: 600px;
+}
+
+.jumbotron a img {
+  width: 90px;
+  height: 90px;
+  margin: 50px;
+}
+
+.jumbotron .text-capitalize {
+  padding: 20px;
+}
+
+.jumbotron .text-capitalize h1 {
+  font-size: 4rem;
+}
+
+.jumbotron .text-capitalize p {
+  font-weight: bold;
+}
+
+.jumbotron .buttons {
+  margin-left: 8px;
+}
+
+.jumbotron .buttons button {
+  margin-left: 12px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container-fluid img {
+  width: 300px;
+}
+
+.footer {
+  background-color: #757a7d;
+  margin-top: 30px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: white;
+}
+
+.footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.footer a:hover {
+  color: aquamarine;
+}
+
+@media screen and (max-width: 730px) {
+  #carousel {
+    height: 200px;
+    margin-top: 160px;
+  }
+  #pre {
+    margin-top: 260px;
+  }
+  #next {
+    margin-top: 260px;
+  }
+  #indicators {
+    visibility: hidden;
+  }
+  #try {
+    margin-top: 380px;
+  }
+  #store {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 50px;
+  }
+  .footer {
+    margin-top: 10px;
+  }
+  .container-fluid img {
+    width: 170px;
+    height: 80px;
+    margin-bottom: 17px;
+    cursor: pointer;
+  }
+  .jumbotron img {
+    display: none;
+  }
+  .jumbotron h1 {
+    font-size: 2rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gift Card</title>
+
+    <!-- Bootstrap -->
+    <!-- custom styling -->
+    <link href="styles/style.css" rel="stylesheet">
+  </head>
+  <body>
+      <div class="container">
+          <div class="card">
+              <div class="slides" id="right_slide"></div>
+              <div class="slides" id="left_slide"></div>
+              <div class="back_slide">
+                  <p><strong> Lorem Ipsum</strong>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Luctus accumsan tortor posuere ac ut consequat semper. Sed risus pretium quam vulputate dignissim suspendisse in est. Enim tortor at auctor urna nunc id cursus.</p>
+              </div>
+          </div>
+      </div>
+
+
+  <script>
+    if(screen.width <= 800){
+      document.querySelector('.card').addEventListener('touchstart', f);
+    }
+    function f(ev){
+      document.querySelector('#left_slide').style.transform = 'rotateY(-360deg)';
+      document.querySelector('#right_slide').style.transform = 'rotateY(360deg)';
+      document.querySelector('.back_slide').style.transform = 'translateZ(0px)';
+      document.querySelector('.back_slide').style.zIndex = '2';
+    }
+  </script>
+</body>
+</html>

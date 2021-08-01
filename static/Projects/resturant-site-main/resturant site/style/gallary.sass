@@ -1,0 +1,12 @@
+@mixin pic_size
+  width: 500px
+  height: 300px
+  border-radius: 30px
+
+
+.slider
+  img
+    @include pic_size
+  @for $i from 2 to 7
+    #cook#{$i}
+      display: none

@@ -1,0 +1,47 @@
+.container {
+  background: linear-gradient(90deg, rgba(0, 4, 255, 0.53), rgba(255, 0, 0, 0.53)), url("images/download.jpg") no-repeat center fixed;
+  background-image: linear-gradient(90deg, rgba(0, 4, 255, 0.53), rgba(255, 0, 0, 0.53)), url("images/download.jpg") no-repeat center fixed;
+  background-image: -webkit-gradient(90deg, left bottom, right top, color-stop(rgba(0, 4, 255, 0.53)), color-stop(rgba(255, 0, 0, 0.53))), url("images/download.jpg") no-repeat center fixed;
+  background-image: -webkit-linear-gradient(90deg, rgba(0, 4, 255, 0.53), rgba(255, 0, 0, 0.53)), url("images/download.jpg") no-repeat center fixed;
+  background-image: -moz-linear-gradient(90deg, rgba(0, 4, 255, 0.53), rgba(255, 0, 0, 0.53)), url("images/download.jpg") no-repeat center fixed;
+  background-image: -o-linear-gradient(90deg, rgba(0, 4, 255, 0.53), rgba(255, 0, 0, 0.53)), url("images/download.jpg") no-repeat center fixed;
+  background-image: -ms-linear-gradient(90deg, rgba(0, 4, 255, 0.53), rgba(255, 0, 0, 0.53)), url("images/download.jpg") no-repeat center fixed;
+  background-image: -ms-linear-gradient(90deg, rgba(0, 4, 255, 0.53), rgba(255, 0, 0, 0.53)), url("images/download.jpg") no-repeat center fixed;
+  min-height: 629px;
+  min-width: 1360px; }
+  .container .navbar ul {
+    height: 70px;
+    width: 1100px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px; }
+    .container .navbar ul li {
+      float: left;
+      list-style: none;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      background-color: #FFC600;
+      width: 150px;
+      height: 50px;
+      text-align: center;
+      border-radius: 30px;
+      line-height: 45px;
+      text-shadow: 1px 1px 1px;
+      box-shadow: -5px 5px 0px;
+      position: relative;
+      animation: My_animation 0.8s;
+      transition: 0.4s all; }
+      .container .navbar ul li:hover {
+        font-weight: bolder;
+        font-size: larger; }
+
+@keyframes My_animation {
+  from {
+    left: -600px; }
+  to {
+    left: 0px; } }
+
+/*# sourceMappingURL=container.css.map */

@@ -1,0 +1,5 @@
+Hi i'm alireza ghasemabady thank you so much for downloading my file manager project
+
+this is a file manager app that let's you the user enjoy my other websites and web apps there are also
+some random images and videos in this project and even the progit pdf
+you can even sort the names of files and folders in asc or desc order by clicking on the name button

@@ -1,0 +1,21 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: lightblue;
+}
+h1{
+  display: inline;
+  margin: 10px;
+}
+button{
+  background: rgba(255, 0, 0, 0);
+  padding: 3px;
+  border-radius: 8px;
+}
+div{
+  width: 500px;
+  margin: 30vh auto;
+  
+}

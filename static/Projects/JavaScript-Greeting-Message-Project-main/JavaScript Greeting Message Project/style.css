@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: lime;
+    font-size: 4.65em;
+    text-align: center;
+    margin-top: 150px;
+}
+h1{
+    display: inline;
+}

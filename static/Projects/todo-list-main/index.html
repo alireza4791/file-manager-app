@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Todo List</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- external CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- first container for adding tasks -->
+    <div class="container" id="task_manager">
+      <div>
+        <h1>Add Your Tasks</h1>
+        <!-- input field and button for adding tasks -->
+        <div>
+            <input type="text" placeholder="tasks" id="task" name="text" class="input">
+            <button id="add_task" class="btn btn-primary btn-xs">Add Tasks</button>
+        </div>
+        <!-- empty list for tasks to be added -->
+        <div>
+          <ol id="tasks"></ol>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- second container for buttons and audio -->
+    <div class="container" id="btn&audio">
+      <!-- button group -->
+      <div class="btn-group">
+        <button type="button" class="btn btn-danger" id="delete_button">Delete All</button>
+        <button type="button" class="btn btn-success" id="done_button">Finish All</button>
+      </div>
+      <!-- sound effects -->
+      <div id="audio">
+        <audio id="add">   
+          <source src="sounds/add.wav" />   
+          Your browser does not support the audio element.
+        </audio>
+        <audio id="delete_sound">   
+          <source src="sounds/delete.wav" />   
+          Your browser does not support the audio element.
+        </audio>
+        <audio id="delete_all_sound">   
+          <source src="sounds/delete_all.wav" />   
+          Your browser does not support the audio element.
+        </audio>
+        <audio id="done_sound">   
+          <source src="sounds/done.wav" />   
+          Your browser does not support the audio element.
+        </audio>
+        <audio id="done_all_sound">   
+          <source src="sounds/done-all.wav" />Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+
+
+
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- external java script -->
+    <script src="js/app.js"></script>
+  </body>

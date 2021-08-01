@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url("images/background1.jpg");
+
+  min-height: 629px;
+  min-width: 1360px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#h1 {
+  background-color: rgba(39, 37, 37, 0.808);
+  color: white;
+
+  position: absolute;
+  left: 500px;
+  top: 200px;
+  width: 410px;
+  text-align: center;
+  height: 50px;
+}
+#h1 > h1 {
+  opacity: 0.95;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px;
+}
+#h2 {
+  background-color: rgb(228, 215, 215);
+  width: 1360px;
+  position: relative;
+  right: 15px;
+  padding: 70px;
+  top: 620px;
+}
+.container2 {
+  background-image: url("images/background2.jpg");
+  min-height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container2 > #h2 {
+  background-color: rgb(34, 32, 32);
+  width: 1360px;
+  position: relative;
+  right: 15px;
+  padding: 70px;
+  top: 720px;
+  color: white;
+}
+.container2 h1 {
+  color: white;
+  position: relative;
+  left: 500px;
+  top: 300px;
+}
+.container3 > #h2 {
+  background-color: rgb(34, 32, 32);
+  width: 1360px;
+  position: relative;
+  right: 15px;
+  padding: 70px;
+  top: 720px;
+  color: white;
+}
+.container3 {
+  background-image: url("images/background3.jpg");
+  min-height: 800px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container3 h1 {
+  color: white;
+  position: relative;
+  left: 500px;
+  top: 200px;
+}

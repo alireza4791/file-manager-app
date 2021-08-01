@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+a {
+  background: red;
+  color: white;
+  border: 1px solid red;
+  border-radius: 3px;
+  text-decoration: none;
+}
+body {
+  background: lightgoldenrodyellow;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.survey-container {
+  border: 1px solid rgba(0, 0, 0, 0.336);
+  margin-left: 180px;
+  margin-right: 180px;
+  border-radius: 15px;
+  background: white;
+  padding: 30px;
+  padding-top: 35px;
+}
+h1 {
+  text-align: center;
+  margin: 15px;
+}
+fieldset {
+  margin: 10px;
+}
+fieldset div {
+  margin: 10px;
+}
+.submit {
+  padding-left: 400px;
+}
+ifram {
+  margin-left: 400px;
+}

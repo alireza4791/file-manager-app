@@ -1,0 +1,29 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  margin: 25px;
+  font-size: 40px;
+  /* font-family: open-sans, sans-serif; */
+}
+form div:first-child{
+  margin-left: 500px;
+  margin-top: 30px;
+}
+form div:nth-child(2){
+  margin-left: 490px;
+  margin-top: 30px;
+}
+form div:nth-child(3){
+  margin-left: 480px;
+  margin-top: 30px;
+}
+form div:nth-child(4){
+  margin-left: 470px;
+  margin-top: 30px;
+}
+label{
+  font-weight: bold;
+}
